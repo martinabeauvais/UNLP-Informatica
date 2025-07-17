@@ -4,7 +4,9 @@ program uno;
 var
     num1, num2: integer;
 begin
+    writeln('Ingrese un número entero');
     readln(num1);
+    writeln('Ingrese otro número entero');
     readln(num2);
     if(num1 > num2) then
         writeln('El número más grande es:', num1)
