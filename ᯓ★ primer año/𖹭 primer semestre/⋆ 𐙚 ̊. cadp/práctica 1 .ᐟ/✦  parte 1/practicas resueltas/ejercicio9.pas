@@ -38,4 +38,4 @@ begin
     end
     else
         writeln('El caracter ingresado no es válido');
-end;
+end.
